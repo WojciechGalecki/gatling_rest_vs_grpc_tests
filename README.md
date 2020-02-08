@@ -8,6 +8,8 @@ https://gatling.io/docs/current/extensions/maven_plugin/
 - pom.xml file
 
 # run gatling test scenarios
+To run REST and gRPC simulations first run the `movie_rest.py` and `movie_server.py` from:
+https://github.com/WojciechGalecki/python_grpc_api
 - `run-gatling-test.sh`   or simply `mvn gatling:test`
 - results under target directory
 
